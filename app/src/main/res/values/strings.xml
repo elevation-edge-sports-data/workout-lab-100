@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Workout Lab Track</string>
+    <string name="notification_channel_name">Workout recording</string>
+    <string name="notification_channel_desc">Shown only while a workout is being recorded</string>
+    <string name="notification_title">Recording — extra battery</string>
+    <string name="notification_extra_battery">Recording — extra battery</string>
+    <string name="notification_stop">Stop</string>
+    <string name="watcher_channel_name">Autostart</string>
+    <string name="watcher_channel_desc">Quiet notice that Autostart is watching. Not a recording.</string>
+    <string name="watcher_notification_title">Autostart on (not recording)</string>
+    <string name="watcher_notification_text">Watching for a walk or jog</string>
+</resources>

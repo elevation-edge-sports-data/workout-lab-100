@@ -1,0 +1,67 @@
+# Gradle / Android build (regenerable)
+# Existing Android Studio rules kept; list B added.
+*.iml
+.gradle
+.gradle/
+build/
+/build
+/app/build
+/app/build/
+.kotlin
+.kotlin/
+.cxx
+.externalNativeBuild
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Local SDK path, signing, secrets
+/local.properties
+local.properties
+*.keystore
+*.jks
+*.pem
+*.p12
+*.key
+.env
+.env.*
+google-services.json
+secrets.properties
+keystore.properties
+
+# IDE / OS
+/.idea
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Profiler / emulator captures
+/captures
+/captures/
+*.hprof
+
+# Personal activity, GPS, health, on-device ledger, exports
+# Real workouts stay off GitHub (workout-lab-100).
+*.gpx
+*.fit
+*.tcx
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.room
+workout_lab_track.db
+workout_lab_track.db-*
+sessions/
+exports/
+
+# Optional OSM tile caches if they ever land in the tree
+tiles/
+map-tiles/
